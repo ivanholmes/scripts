@@ -1,12 +1,6 @@
-diff -rupN ltrb orig/configure ltrb patch/configure
---- ltrb orig/configure	2015-03-22 03:34:22.000000000 +0000
-+++ ltrb patch/configure	2015-03-24 18:43:38.000000000 +0000
 @@ -16790,7 +16790,7 @@ ac_compiler_gnu=$ac_cv_c_compiler_gnu
  LIBS="$PTHREAD_LIBS $LIBS"
  CFLAGS="$PTHREAD_CFLAGS $CFLAGS"
  CC="$PTHREAD_CC"
 -CXXFLAGS="$CXXFLAGS -ftemplate-depth=120"
 +#CXXFLAGS="$CXXFLAGS -ftemplate-depth=120"
- 
- $as_echo  "Checking for visibility support:"
- { $as_echo "$as_me:${as_lineno-$LINENO}: checking for __attribute__((visibility(\"hidden\")))" >&5
